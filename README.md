@@ -40,13 +40,22 @@ Double-click index.html or open it using VS Code's Live Server.
 
 plaintext
 Copy code
+
 scholarship-finder/
+
 │
+
 ├── index.html       # Main HTML file
+
 ├── styles.css       # Styling file for frontend
+
 ├── script.js        # Handles Firebase and AI logic
+
 ├── README.md        # Project documentation
+
 └── assets/          # Images and other static files
+
+
 
 ⚙️ How It Works
 Input Form: Users enter details like GPA, location, education level, income, etc.
