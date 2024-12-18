@@ -91,9 +91,6 @@ Make your changes and commit: git commit -m "Add new feature".
 Push to the branch: git push origin feature-name.
 Open a Pull Request.
 
-**📜 License
-**This project is licensed under the MIT License.
-
 **🙌 Acknowledgments
 **
 
