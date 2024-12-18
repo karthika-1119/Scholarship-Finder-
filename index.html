@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Based Scholarship Finder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Scholarship Finder</h1>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Discover Scholarships Tailored Just for You</h2>
+                <p>Let AI simplify your scholarship search process.</p>
+                <button onclick="location.href='#search'" class="btn-primary">Get Started</button>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Why Choose Us?</h2>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h3>Personalized Matches</h3>
+                        <p>AI-based recommendations tailored to your profile.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Deadline Alerts</h3>
+                        <p>Never miss a deadline with automatic notifications.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Scholarship Filters</h3>
+                        <p>Find scholarships based on your eligibility and preferences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scholarship Search Section -->
+        <section id="search" class="search">
+            <div class="container">
+                <h2>Find Your Perfect Scholarship</h2>
+                <form id="scholarship-form">
+                    <h3>Personal Details</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name:</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+
+                    <h3>Education Details</h3>
+                    <div class="form-group">
+                        <label for="gpa">Your GPA (or equivalent percentage):</label>
+                        <input type="number" id="gpa" name="gpa" step="0.01" placeholder="e.g., 3.5 or 85%" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="education-level">Your Education Level:</label>
+                        <select id="education-level" name="education-level" required>
+                            <option value="" disabled selected>Select your level</option>
+                            <option value="10th">10th Grade</option>
+                            <option value="12th">12th Grade</option>
+                            <option value="ug">Undergraduate</option>
+                            <option value="pg">Postgraduate</option>
+                            <option value="mtech">M.Tech</option>
+                            <option value="phd">Ph.D.</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="major">Your Major (if applicable):</label>
+                        <input type="text" id="major" name="major" placeholder="e.g., Computer Science">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="field-of-interest">Field of Interest:</label>
+                        <input type="text" id="field-of-interest" name="field-of-interest" placeholder="e.g., Data Science, AI" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="study-destination">Preferred Study Destination:</label>
+                        <input type="text" id="study-destination" name="study-destination" placeholder="e.g., USA, Canada" required>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Find Scholarships</button>
+                </form>
+
+                <div id="results" class="results">
+                    <!-- Results will appear here dynamically -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Scholarship Finder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
