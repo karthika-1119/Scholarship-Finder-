@@ -27,8 +27,11 @@ Follow these steps to set up and run the project locally:
 bash
 Copy code
 git clone https://github.com/karthik-1119/scholarship-finder.git
+
 cd scholarship-finder
+
 **2. Open the Project**
+
 Run the project in your browser:
 
 Double-click index.html or open it using VS Code's Live Server.
@@ -59,15 +62,18 @@ Search Scholarships Form
 
 **🌐 Live Demo**
 
-Check out the live project here: <a href="https://scholarship-finder-68ea0.web.app/"> Scholarship Finder Demo</a>
+Check out the live project here: <a href="https://scholarship-finder-68ea0.web.app/">   Scholarship Finder Demo</a>
+
 **🛠 Future Improvements
 ** 
+
 Integrate advanced AI filters for better recommendations.
 Add a dashboard to track applications.
 Include user authentication for saving preferences.
 
 **🤝 Contributing
 **
+
 Contributions are welcome! If you'd like to improve this project:
 
 Fork the repository.
